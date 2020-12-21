@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>  
+    
+    <!--HEADER-->
+
+    <table border="1" align="center" width="60%" cellspacing="0">
+        <td align="center"><h1>BIO DATA</h1></td>
+    </table>  
+
+    <!--FORM-->
+    <!--USING TABLE JUST FOR ALIGNMENT-->
+
+    <form>
+        <table border="0" align="center" width="60%" cellspacing="13">
+            
+            <!--NAME-->
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td colspan="3"><input type="text" name="user-name" id="name" maxlength="20"></td>
+            </tr><br>
+
+            <!--PASSWORD-->
+            <tr>
+                <td><label for="pwd">Password:</label></td>
+                <td colspan="3"><input type="password" name="password" id="pwd" maxlength="8"></td>
+            </tr>
+
+            <!--CONFIRM-PASSWORD-->
+            <tr>
+                <td><label for="c-pwd">Confirm-Password:</label></td>
+                <td colspan="3"><input type="password" name="c-password" id="c-pwd" maxlength="8"></td>
+            </tr>
+            
+            <!--RADIO-->
+            <tr>
+                <td><label for="gen">Gender:</label></td>      
+                <td colspan="1"><input type="radio" name="gender" id="gen">Male</td>          
+                <td colspan="1"><input type="radio" name="gender" id="gen">Female</td>
+                <td colspan="1"><input type="radio" name="gender" id="gen">Others</td>
+            </tr>  
+            
+            <!--CHECKBOX-->
+            <tr>
+                <td><label for="Lang">Language Known:</label></td>      
+                <td colspan="1"><input type="checkbox" name="Tamil" id="Lang">Tamil</td>          
+                <td colspan="1"><input type="checkbox" name="English" id="Lang">English</td>
+                <td colspan="1"><input type="checkbox" name="Telugu" id="Lang">Telugu</td>
+                <td colspan="1"><input type="checkbox" name="Malayalm" id="Lang">Malayalam</td>
+                <td colspan="1"><input type="checkbox" name="Kanadam" id="Lang">Kanadam</td>
+            </tr>  
+            
+            <!--DROPDOWN-->
+            <tr>
+                <td><label for="Country">Country</label></td>  
+                <td>
+                    <select>
+                        <option value="INDIA" >INDIA</option>
+                        <option value="SINGAPORE">SINGAPORE</option>
+                        <option value="MALAISIA">MALAISIA</option>
+                        <option value="AMERICA">AMERICA</option>
+                        <option value="JAMAICA">JAMAICA</option>
+                        <option value="ENGLAND">ENGLAND</option>
+                    </select>
+                </td>          
+            </tr>  
+            
+            <!--TEXTAREA-->
+            <tr>
+                <td><label for="Comment">Comments</label></td>      
+                <td colspan="5"><textarea name="Address" id="Adrs" rows="6" cols="30" >Enter the Comments</textarea></td>
+            </tr>
+            
+            <!--SUBMIT-->
+            <tr>   
+                <td><label for=""></label></td>   
+                 <td colspan="5"><input type="submit" size="20%"></td>>
+            </tr>
+    </form>    
+</table>  
+</body>
+</html>
